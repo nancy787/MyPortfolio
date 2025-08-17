@@ -15,7 +15,7 @@ const { t } = useTranslation();
             <p className="text-md WorkSans my-5 WorkSans">{t("about.description")}</p>
   
             <a
-              href="contact"
+              href="/contact"
               className="inline-block focus-visible:ring  my-4  border-[#4E5E80] hover:bg-[#4E5E80] hover:text-white ease-out  border-2 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-300 px-[2em] py-[.9em]"
             >
               Contact Me

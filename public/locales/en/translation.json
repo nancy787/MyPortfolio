@@ -18,7 +18,8 @@
     "about": {
       "title": "About",
       "heading" : "A Little Bit About Me",
-      "description": "“I am a software developer with over 3 years of experience designing and building scalable web applications. My expertise lies in backend development using PHP, Laravel and Symfony, where I have worked extensively on API integrations, subscription systems, and performance optimization. I am also skilled in database design and management with MySQL,Postgresql, ensuring efficient and reliable data handling. On the frontend, I enjoy creating user-friendly and responsive interfaces with React. I am passionate about writing clean, maintainable code and delivering solutions that balance technical precision with real business needs..”"
+      "description": "“I am a software developer with over 3 years of experience designing and building scalable web applications. My expertise lies in backend development using PHP, Laravel and Symfony, where I have worked extensively on API integrations, subscription systems, and performance optimization. I am also skilled in database design and management with MySQL,Postgresql, ensuring efficient and reliable data handling. On the frontend, I enjoy creating user-friendly and responsive interfaces with React. I am passionate about writing clean, maintainable code and delivering solutions that balance technical precision with real business needs..”",
+      "contact_btn"  : "Contact"
     },
     "work": {
       "title": "My Work",

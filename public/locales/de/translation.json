@@ -18,7 +18,8 @@
   "about": {
     "title": "Über mich",
     "heading" : "Ein bisschen über mich",
-    "description": "“Ich bin Softwareentwickler mit über drei Jahren Erfahrung im Design und der Entwicklung skalierbarer Webanwendungen. Meine Expertise liegt in der Backend-Entwicklung mit PHP, Laravel und Symfony, wo ich intensiv an API-Integrationen, Abonnementsystemen und Performance-Optimierung gearbeitet habe. Ich verfüge außerdem über umfassende Erfahrung im Datenbankdesign und -management mit MySQL und PostgreSQL und sorge so für eine effiziente und zuverlässige Datenverarbeitung. Im Frontend entwickle ich gerne benutzerfreundliche und reaktionsschnelle Oberflächen mit React. Ich schreibe leidenschaftlich gerne sauberen, wartungsfreundlichen Code und liefere Lösungen, die technische Präzision mit realen Geschäftsanforderungen in Einklang bringen.”"
+    "description": "“Ich bin Softwareentwickler mit über drei Jahren Erfahrung im Design und der Entwicklung skalierbarer Webanwendungen. Meine Expertise liegt in der Backend-Entwicklung mit PHP, Laravel und Symfony, wo ich intensiv an API-Integrationen, Abonnementsystemen und Performance-Optimierung gearbeitet habe. Ich verfüge außerdem über umfassende Erfahrung im Datenbankdesign und -management mit MySQL und PostgreSQL und sorge so für eine effiziente und zuverlässige Datenverarbeitung. Im Frontend entwickle ich gerne benutzerfreundliche und reaktionsschnelle Oberflächen mit React. Ich schreibe leidenschaftlich gerne sauberen, wartungsfreundlichen Code und liefere Lösungen, die technische Präzision mit realen Geschäftsanforderungen in Einklang bringen.”",
+    "contact_btn"  : "Kontakt"
   },
   "work": {
     "title" : "Meine Arbeit",

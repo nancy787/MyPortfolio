@@ -2,23 +2,22 @@ import React from "react"
 
 export default function SocialLinks() {
     return (
-        <div className="flex justify-center bg-[#FFEED9] lg:justify-center items-center gap-6">
-            {/* GitHub */}
-            <a
-                href="https://github.com/nancy787"
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-2 hover:text-[#4E5E80] transition"
-            >
-                <svg
-                className="w-5 h-5"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-                >
-                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 
+        <div className="flex flex-wrap justify-center items-center gap-6">
+        {/* GitHub */}
+        <a
+          href="https://github.com/nancy787"
+          target="_blank"
+          rel="noreferrer"
+          className="flex items-center gap-2 hover:text-[#4E5E80] transition"
+        >
+          <svg
+            className="w-5 h-5"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+             <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 
                 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416
                 -.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729
                 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 
@@ -30,25 +29,25 @@ export default function SocialLinks() {
                 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 
                 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 
                 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                </svg>
-                <span>nancy787</span>
-            </a>
-            {/* LinkedIn */}
-            <a
-                href="https://www.linkedin.com/in/nancy-kumari-bb9722204/"
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-2 hover:text-[#4E5E80] transition"
-            >
-                <svg
-                className="w-5 h-5"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-                >
-                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 
+          </svg>
+          <span className="hidden sm:inline">nancy787</span>
+        </a>
+      
+        {/* LinkedIn */}
+        <a
+          href="https://www.linkedin.com/in/nancy-kumari-bb9722204/"
+          target="_blank"
+          rel="noreferrer"
+          className="flex items-center gap-2 hover:text-[#4E5E80] transition"
+        >
+          <svg
+            className="w-5 h-5"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+             <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 
                 2.761 2.239 5 5 5h14c2.762 0 5-2.239 
                 5-5v-14c0-2.761-2.238-5-5-5zm-11 
                 19h-3v-11h3v11zm-1.5-12.268c-.966 
@@ -58,30 +57,31 @@ export default function SocialLinks() {
                 12.268h-3v-5.604c0-3.368-4-3.113-4 
                 0v5.604h-3v-11h3v1.765c1.396-2.586 
                 7-2.777 7 2.476v6.759z" />
-                </svg>
-                <span>nancyKumari</span>
-            </a>
-
-            {/* Xing */}
-            <a
-                href="https://www.xing.com/profile/Nancy_Kumari/web_profiles"
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-2 hover:text-[#4E5E80] transition"
-            >
-                <svg 
-                role="img" aria-label="Xing" 
-                viewBox="0 0 32 32" 
-                width="20" height="20" 
-                xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
-                >
-                <title>Xing</title>
-                <path d="M11.42,8.29a1.25,1.25,0,0,0-1.13-.76h-4a.65.65,0,0,0-.55.25.63.63,0,0,0,0,.62l2.73,4.73v0L4.17,20.72a.6.6,0,0,0,0,.62.58.58,0,0,0,.52.28h4a1.22,1.22,0,0,0,1.1-.78l4.36-7.71S11.42,8.29,11.42,8.29Z"/>
+          </svg>
+          <span className="hidden sm:inline">nancyKumari</span>
+        </a>
+      
+        {/* Xing */}
+        <a
+          href="https://www.xing.com/profile/Nancy_Kumari/web_profiles"
+          target="_blank"
+          rel="noreferrer"
+          className="flex items-center gap-2 hover:text-[#4E5E80] transition"
+        >
+          <svg
+            role="img"
+            aria-label="Xing"
+            viewBox="0 0 32 32"
+            width="20"
+            height="20"
+            fill="currentColor"
+          >
+              <path d="M11.42,8.29a1.25,1.25,0,0,0-1.13-.76h-4a.65.65,0,0,0-.55.25.63.63,0,0,0,0,.62l2.73,4.73v0L4.17,20.72a.6.6,0,0,0,0,.62.58.58,0,0,0,.52.28h4a1.22,1.22,0,0,0,1.1-.78l4.36-7.71S11.42,8.29,11.42,8.29Z"/>
                 <path d="M27.83,2.88a.65.65,0,0,0,0-.62A.61.61,0,0,0,27.3,2H23.22a1.19,1.19,0,0,0-1.08.77s-8.7,15.43-9,15.93l5.74,10.53A1.26,1.26,0,0,0,20,30h4a.59.59,0,0,0,.54-.26.62.62,0,0,0,0-.62l-5.69-10.4a0,0,0,0,1,0,0Z"/>
-                </svg>
-                <span>@nancykumari</span>
-            </a>
-        </div>
+          </svg>
+          <span className="hidden sm:inline">@nancykumari</span>
+        </a>
+      </div>
+      
     )
 }

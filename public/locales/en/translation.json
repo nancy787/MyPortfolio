@@ -1,4 +1,10 @@
 {
+  "header" : {
+    "home" : "Home",
+    "about" : "About",
+    "contact" : "Contact",
+    "work"   : "Work"
+  },
     "home": {
       "wave" : "Hello All",
       "name" : "I'm Nancy Kumari,",
@@ -33,7 +39,7 @@
       },
       {
             "title" : "Personal portfolio",
-            "description" : "A personal portfolio website built to showcase my skills, projects, and professional experience as a software developer. The site features a clean and responsive design, ensuring accessibility across devices. It highlights project case studies, technical expertise, and an integrated contact form, making it easier for potential employers and collaborators to connect. Optimized for performance and SEO, the portfolio is designed to provide a fast, professional, and engaging user experience.",
+            "description" : "A personal portfolio website built to showcase my skills, projects, and professional experience as a software developer. The site features a clean and responsive design, ensuring accessibility across devices. It highlights project case studies, technical expertise, and an integrated contact form, making it easier for potential employers and collaborators to connect. the portfolio is designed to provide a fast, professional, and engaging user experience.",
             "view"  : "#",
             "tech_stack" : "React, tailwindCss",
             "link" : "https://github.com/nancy787/React/tree/master/MyPortfolio"

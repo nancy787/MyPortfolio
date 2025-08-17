@@ -18,9 +18,9 @@ function LanguageSelector() {
 
   return (
     <div>
-      <select value={lang} onChange={handleChange}>
+      <select value={lang} className="text-gray-600"onChange={handleChange}>
         {languages.map((item) => (
-          <option key={item.value} value={item.value}>
+          <option className="text-gray-600" key={item.value} value={item.value}>
             {item.text}
           </option>
         ))}

@@ -1,4 +1,10 @@
 {
+  "header" : {
+    "home" : "Heim",
+    "about" : "Über mich",
+    "contact" : "Kontakt",
+    "work"   : "Arbeiten"
+  },
   "home": {
     "wave" : "Hallo zusammen",
     "name" : "Ich bin Nancy Kumari,",

@@ -12,70 +12,82 @@ function Home() {
   const { t } = useTranslation();
 
     return(
-        <div className="bg-[#FFEED9] min-h-screen max-w-screen-2xl px-4 container mx-auto ">
-        <section className="flex flex-col lg:flex-row justify-between gap-6 sm:gap-10 md:gap-16">
-          <div className="flex flex-col justify-between">
-            <div className="sm:text-center lg:text-left lg:py-12 xl:py-24">
-              <button className="bg-[#FFDDBF] md:text-lg xl:text-xl font-semibold rounded-xl mb-4 md:mb-6 px-4 py-3">
-                👋 { t("home.wave") }
-              </button>
-  
-              <h1 className="text-black-800 flex flex-col justify-start items-start text-[40px]  sm:text-6xl md:text-5xl font-bold mb-8 md:mb-12">
-              { t("home.name") }
-                <span className="py-3 text-3xl">{ t("home.title") }</span>
-                <span className="text-xl">(PHP | Laravel | Symfony | MySQL | React)</span>
-              </h1>
-              <div className="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-2.5">
-                <button 
-                className="inline-block bg-[#4E5E80]  cursor-pointer focus-visible:ring ring-indigo-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-[5rem] py-5"
-                onClick={() => ButtonMailTo("nancykumari2630@gmail.com")}
-                >
-                { t("home.btn_email") }
-                </button>
-                <a
-                  href={Resume}
-                  target="_blank"
-                  className="inline-block focus-visible:ring   ring-[#4E5E80] border-[#4E5E80] border-2 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-[5rem] py-5"
-                >
-                { t("home.btn_resume") }
-                </a>
-              </div>
-            </div>
+      <div className="bg-[#FFEED9] min-h-screen max-w-screen-2xl px-4 md:px-6 lg:px-12 container mx-auto">
+      {/* Hero Section */}
+      <section className="flex flex-col-reverse lg:flex-row justify-between items-center gap-6 sm:gap-10 md:gap-16">
+        
+        {/* Left Content */}
+        <div className="flex flex-col justify-center text-center lg:text-left lg:py-12 xl:py-20">
+          <button className="bg-[#FFDDBF] text-base md:text-lg xl:text-xl font-semibold rounded-xl mb-4 md:mb-6 px-4 py-2 md:px-6 md:py-3">
+            👋 {t("home.wave")}
+          </button>
+    
+          <h1 className="text-black-800 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 md:mb-8">
+            {t("home.name")}
+            <span className="block py-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl">{t("home.title")}</span>
+            <span className="block text-base sm:text-lg md:text-xl lg:text-2xl">
+              (PHP | Laravel | Symfony | MySQL | React)
+            </span>
+          </h1>
+    
+          {/* Buttons */}
+          <div className="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-3">
+            <button
+              className="w-full sm:w-auto bg-[#4E5E80] cursor-pointer focus-visible:ring ring-indigo-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-6 py-3 md:px-8 md:py-4"
+              onClick={() => ButtonMailTo("nancykumari2630@gmail.com")}
+            >
+              {t("home.btn_email")}
+            </button>
+            <a
+              href={Resume}
+              target="_blank"
+              className="w-full sm:w-auto focus-visible:ring ring-[#4E5E80] border-[#4E5E80] border-2 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-6 py-3 md:px-8 md:py-4"
+            >
+              {t("home.btn_resume")}
+            </a>
           </div>
-          <div className=" h-[40rem] overflow-hidden ">
-            <img
-              src={girlImage}
-              loading="lazy"
-              alt="Photo by Fakurian Design"
-              className="w-full h-full object-cover object-center"
-            />
-          </div>
-          <div className="flex flex-col items-center  justify-center">
-          </div>
-        </section>
-        <hr className="my-8 border-gray-300" />
-        <section>
-        <div className="min-h-screen flex items-center justify-center bg-[#FFEED9]">
-          <VideoCard
-            title={ t("home.introduction") }
-            description={ t("home.video") }
-            className="bg-white shadow-lg rounded-2xl overflow-hidden max-w-md"
+        </div>
+    
+        {/* Right Image */}
+        <div className="w-full lg:w-1/2 max-h-[28rem] sm:max-h-[32rem] lg:max-h-[40rem] overflow-hidden rounded-2xl shadow-md">
+          <img
+            src={girlImage}
+            loading="lazy"
+            alt="Portfolio Illustration"
+            className="w-full h-full object-cover object-center"
           />
-      </div>
-        </section>
-        <hr className="my-8 border-gray-300" />
-        <section>
-          <About  />
-        </section>
-        <hr className="my-8 border-gray-300" />
-        <section>
-          <Work/>
-        </section>
-        <hr className="my-8 border-gray-300" />
-        <section>
-          <Contact/>
-        </section>
-      </div>
+        </div>
+      </section>
+    
+      {/* Divider + Video Section */}
+      <hr className="my-8 border-gray-300" />
+      <section className="flex justify-center items-center">
+        <VideoCard
+          title={t("home.introduction")}
+          description={t("home.video")}
+          className="bg-white shadow-lg rounded-2xl overflow-hidden w-full max-w-md"
+        />
+      </section>
+    
+      {/* Divider + About */}
+      <hr className="my-8 border-gray-300" />
+      <section>
+        <About />
+      </section>
+    
+      {/* Divider + Work */}
+      <hr className="my-8 border-gray-300" />
+      <section>
+        <Work />
+      </section>
+    
+      {/* Divider + Contact */}
+      <hr className="my-8 border-gray-300" />
+      <section>
+        <Contact />
+      </section>
+    </div>
+    
     )
 }
 

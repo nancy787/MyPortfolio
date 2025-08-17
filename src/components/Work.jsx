@@ -32,13 +32,13 @@ function Work() {
             {project.description}
           </p>
           <p className="text-sm font-semibold mb-2">
-            <span className="text-indigo-500">Tech Stack:</span>{" "}
-            {project.tech_stack}
-          </p>
+          <span className="text-indigo-500 dark:text-indigo-300">Tech Stack:</span>{" "}
+          <span className="text-gray-700 dark:text-gray-300">{project.tech_stack}</span>
+        </p>
           {project.Features && (
             <p className="text-sm italic mb-2">
-              <span className="text-indigo-500">Features:</span>{" "}
-              {project.Features}
+              <span className="text-indigo-500 dark:text-indigo-300">Features:</span>{" "}
+              <span className="text-gray-700 dark:text-gray-300">{project.Features}</span>
             </p>
           )}
           <div className="flex justify-center space-x-4 mt-4">

@@ -1,6 +1,6 @@
 import React from "react";
 import girlImage from '../assets/girl.png';
-import  Resume  from "../../public/nancy_kumari_resume.pdf";
+import  Resume  from "../../public/Nancy_Kumari_PHP_Software_Developer.pdf";
 import {Contact, About, Work, VideoCard}  from "../pages/index";
 import { useTranslation } from "react-i18next";
 

@@ -1,6 +1,6 @@
 import React from "react";
 // import introduction from "../../public/introduction_video.mp4"
-import  Resume  from "../../public/nancy_kumari_resume.pdf";
+import  Resume  from "../../public/Nancy_Kumari_PHP_Software_Developer.pdf";
 import { useTranslation } from "react-i18next";
 import introduction from "../../public/intro.mp4"
 

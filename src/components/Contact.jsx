@@ -1,6 +1,6 @@
 import React from "react";
 import { ButtonMailto, SocialLinks} from "../pages/index";
-import  Resume  from "../../public/nancy_kumari_resume.pdf";
+import  Resume  from "../../public/Nancy_Kumari_PHP_Software_Developer.pdf";
 import contactMeImg from "../assets/contact_me.png";
 import { useTranslation } from "react-i18next";
 

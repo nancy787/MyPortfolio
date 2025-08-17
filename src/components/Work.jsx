@@ -27,7 +27,7 @@ function Work() {
   {t("work.projects", { returnObjects: true }).map((project, index) => (
       <div key={index} className="flex flex-col items-center mx-12 lg:mx-0">
         <div className="relative text-center bg-white dark:bg-gray-900 shadow-lg rounded-2xl p-6">
-          <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+          <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">{project.title}</h3>
           <p className="text-gray-600 dark:text-gray-300 text-sm mb-2">
             {project.description}
           </p>
